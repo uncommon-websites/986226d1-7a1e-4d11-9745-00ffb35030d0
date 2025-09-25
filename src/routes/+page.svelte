@@ -25,62 +25,74 @@
 />
 
 <Summary
-	generating
-	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	title="Turn viral moments into value"
+	text="Coin lets meme creators and crypto influencers instantly mint tokens from their most viral tweets. No devs, no tokenomics — just one click and your content becomes a tradeable market. Every viral post is a missed opportunity until now."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Marcus Thompson",
+			position: "Crypto Influencer",
+			company: "45K Twitter Followers",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Coin saved me 18 hours per week by automating token creation from my viral tweets.\nI've generated $12K in revenue from memes that would have just disappeared into the timeline.",
+			image: "/generated/image-medium-shot-portrait-of-a-confident-youn.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Zara Chen",
+			position: "Meme Creator",
+			company: "78K Social Media Following",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Used to miss 80% of monetization opportunities from trending posts - now I capture them instantly.\nThe one-click token deployment turned my best meme into $8,500 in trading volume within 6 hours.",
+			image: "/generated/image-medium-shot-portrait-of-a-confident-asia.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Diego Morales",
+			position: "Content Creator",
+			company: "32K Farcaster Network",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Coin eliminated the $2,000 upfront cost and 3-week learning curve for token launches.\nMy first meme coin hit $15K market cap while the content was still trending - perfect timing that was impossible before.",
+			image: "/generated/image-medium-shot-portrait-of-a-confident-lati.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Turn viral moments into valuable assets"
+	subtitle="Transform your tweets into tradeable tokens instantly with AI-powered meme monetization"
 	features={[
 		{
-			title: "Streamlined Workflows",
+			title: "One-click meme monetization",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+				"Convert any viral tweet into a tradeable token without complex blockchain knowledge. Simply connect your Twitter account and watch your memes become markets."
 		},
 		{
-			title: "Data Analysis",
+			title: "AI-powered viral detection",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+				"Our intelligent algorithms identify trending content before it peaks, ensuring you capture maximum value from your creative moments."
 		},
 		{
-			title: "Secure Collaboration",
+			title: "Instant tweet-to-token conversion",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+				"Deploy your meme coin on Base Protocol in seconds, not hours. Don't miss the wave while others struggle with technical barriers."
+		},
+		{
+			title: "Built on Base Protocol",
+			description:
+				"Leverage Coinbase's secure Layer 2 solution for fast, low-cost transactions. Your tokens benefit from enterprise-grade blockchain infrastructure."
+		},
+		{
+			title: "Creator attribution and royalties",
+			description:
+				"Maintain ownership of your creative work while earning ongoing royalties. Every trade generates value back to the original creator."
+		},
+		{
+			title: "Seamless social integration",
+			description:
+				"Connect Twitter, authenticate with Privy wallet, and mint tokens directly from your social media dashboard. No technical setup required."
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction />
