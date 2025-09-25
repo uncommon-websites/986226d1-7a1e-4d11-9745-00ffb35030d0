@@ -65,24 +65,38 @@
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Turn moments into markets"
+	subtitle="Built for crypto creators who know the value of viral timing"
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "One-click meme coin deployment",
+			description: "Transform any tweet into a tradeable token instantly without complex smart contract knowledge. Skip the 80% profit loss from timing delays and capture value while your content trends.",
+			imageSrc: "/generated/image-a-diverse-group-of-young-creators-in-the.webp"
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "AI-powered viral detection",
+			description: "Our proprietary algorithms identify trending potential before mainstream platforms catch on. Get first-mover advantage on your most valuable content moments.",
+			imageSrc: "/generated/image-a-small-diverse-group-of-creators-collab.webp"
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "Base blockchain infrastructure",
+			description: "Built on Coinbase's Layer 2 for lightning-fast transactions and minimal fees. Your meme coins deploy in seconds, not minutes, keeping pace with internet speed culture.",
+			imageSrc: "/generated/image-a-solo-creator-in-their-bedroom-studio-c.webp"
+		},
+		{
+			title: "Seamless social authentication",
+			description: "Connect your Twitter account with one click and start monetizing immediately. No complex wallet setups or crypto knowledge required to begin earning.",
+			imageSrc: "/generated/image-a-diverse-creator-collective-brainstormi.webp"
+		},
+		{
+			title: "Real-time market tracking",
+			description: "Monitor your meme coin performance with live market cap updates and trading volume analytics. Watch your viral moments generate actual revenue in real-time.",
+			imageSrc: "/generated/image-real-time-crypto-trading-dashboard-with-.webp"
+		},
+		{
+			title: "Permanent IPFS storage",
+			description: "Your meme coins and content are stored permanently on decentralized networks, ensuring your digital assets remain accessible forever. True ownership of your viral moments.",
+			imageSrc: "/generated/image-decentralized-storage-network-with-glowi.webp"
 		}
 	]}
 />
