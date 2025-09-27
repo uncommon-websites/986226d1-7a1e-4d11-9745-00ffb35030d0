@@ -11,16 +11,16 @@
 	// Constants
 	const values = [
 		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
+			title: "Creators first",
+			description: "Every viral moment deserves instant monetization. We put meme creators at the center of their own economic opportunity."
 		},
 		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
+			title: "Culture follows value",
+			description: "The most valuable content emerges from authentic culture. We turn cultural moments into tradeable assets with one click."
 		},
 		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
+			title: "Speed of memes",
+			description: "Viral windows close fast. Our AI-powered deployment gets your meme coin live before the moment passes."
 		}
 	];
 </script>
@@ -41,7 +41,7 @@
 />
 
 <!-- Our Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
@@ -94,8 +94,20 @@
 
 <!-- CTA Section -->
 <CallToAction
-	generating
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Turn your memes into money."
+	subtitle="Join the meme monetization revolution"
+	description="Join 55,000+ creators already on our waitlist. Start capturing the upside from your viral content—before it scrolls away."
+	imageSrc="/generated/image-a-young-diverse-creator-in-their-persona.webp"
+	callsToAction={[
+		{
+			href: "#waitlist",
+			label: "Join waitlist",
+			variant: "primary"
+		},
+		{
+			href: "#demo",
+			label: "See demo",
+			variant: "secondary"
+		}
+	]}
 />
