@@ -6,16 +6,27 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CenteredTextOnlyHero from "$lib/components/layout/hero-sections/CenteredTextOnlyHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+<CenteredTextOnlyHero
+	title="Turn viral moments into verified value"
+	subtitle="Coin transforms your tweets into tradeable tokens instantly. Join 55,000+ creators monetizing memes on Base blockchain with one-click deployment."
+	imageSrc="/generated/image-a-young-diverse-creator-in-their-bedroom.webp"
+	callsToAction={[
+		{ href: "#waitlist", label: "Join waitlist" },
+		{ href: "#learn-more", label: "Learn more" }
+	]}
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by leading crypto creators and platforms" 
+	logoUrls={[
+		'https://cdn.brandfetch.io/farcaster.xyz/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/magiceden.io/w/400/h/400/logo', 
+		'https://cdn.brandfetch.io/coinbase.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/x.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
