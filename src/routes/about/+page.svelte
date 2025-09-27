@@ -26,20 +26,17 @@
 </script>
 
 <SecondaryHero
-	generating
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
+	title="Make memes. Mint money."
+	subtitle="Instant value from viral content"
+	imageSrc="/generated/image-a-diverse-group-of-young-adults-dressed-.webp"
 />
 
 <!-- Story Section -->
 <Story
-	generating
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"Coin was born out of a frustration shared by every viral meme creator: you're making culture, but you're not making money. Tweets catch fire, memes take off, and the value flows—everywhere except your wallet. Our team saw creators missing 80% of the upside from social virality, simply because there was no easy way to monetize the moment. We asked a simple question: what if every viral post came with its own economy?",
+		"That question led us to build Coin—an AI-powered platform that turns your most viral content into tradeable meme coins with one click. We handle the complexity behind the scenes: smart contract deployment, Base blockchain integration, Twitter authentication, IPFS image storage, and wallet onboarding. All you do is connect your account, select a viral tweet, and click. From there, it's instantly live—minted, listed, and ready to trade.",
+		"Now, our mission is simple: to give creators instant ownership over the value they generate online. We're building a new layer of the internet, one where memes have markets and attention turns into real value. The early web rewarded engagement. The new web rewards economics. If you've got an audience and a viral post, Coin gives you the tools to capture the upside—before it scrolls away."
 	]}
 />
 
