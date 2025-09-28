@@ -26,29 +26,25 @@
 </script>
 
 <SecondaryHero
-	generating
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
+	title="Get paid to go viral"
+	subtitle="We exist because creators deserve to capture the value they create. When your meme breaks the internet, you should break the bank."
+	imageSrc="/generated/image-a-diverse-group-of-young-creators-and-de.webp"
 />
 
 <!-- Story Section -->
 <Story
-	generating
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"Most creators miss the window. Viral moments explode across Twitter, TikTok, and beyond—generating millions of views and cultural impact—but creators watch 80% of the profit potential slip away while they scramble with complex tokenomics and blockchain mechanics. The attention economy is worth $240 billion, yet monetization remains broken for the people actually creating the culture.",
+		"Coin was built to solve this disconnect. We realized that if attention is the new economy, viral moments should have real-time financial value. Our AI-powered platform analyzes your social content and converts it into tradeable meme coins instantly—no coding, no tokenomics knowledge, no waiting. Built on Base Protocol with seamless Twitter integration, we've made it as simple as turning a tweet into a token.",
+		"We're democratizing the creator economy by transforming viral culture into verifiable digital assets. Every meme becomes a market. Every viral moment becomes an opportunity. For the 55,000+ creators already on our waitlist, Coin represents more than just monetization—it's about getting paid to meme and bridging the gap between cultural impact and financial opportunity in real-time."
 	]}
 />
 
 <!-- Our Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	generating
 	stakeholderType="team"
 	title="Our team."
 	subtitle="Your partners in innovation."
@@ -75,7 +71,6 @@
 />
 
 <StakeholderGrid
-	generating
 	stakeholderType="investor"
 	title="Backed by the best."
 	subtitle="Point Nine, TSIC and others"
@@ -97,8 +92,7 @@
 
 <!-- CTA Section -->
 <CallToAction
-	generating
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Ready to coin your next viral moment?"
+	subtitle="Join the meme monetization revolution"
+	description="Turn your tweets into tokens and your memes into markets. Join 55,000+ creators who are already transforming viral moments into valuable digital assets."
 />
