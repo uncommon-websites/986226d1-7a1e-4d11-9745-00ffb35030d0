@@ -6,16 +6,23 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CenteredTextOnlyHero from "$lib/components/layout/hero-sections/CenteredTextOnlyHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+<CenteredTextOnlyHero
+	title="Turn tweets into tradeable assets"
+	subtitle="Coin delivers instant meme monetization by converting viral social content into blockchain tokens with AI-powered analysis."
+	imageSrc="/generated/image-a-young-diverse-creator-in-their-lived-i.webp"
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by crypto innovators and creator platforms"
+	logoUrls={[
+		'https://cdn.brandfetch.io/coinbase.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/x.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/opensea.io/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/discord.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
